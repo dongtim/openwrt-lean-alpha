@@ -25,6 +25,6 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git 281677160 https://github.com/281677160/openwrt-package' feeds.conf.default
-sed -i '$a src-git sirpdboy https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
+# sed -i '$a src-git sirpdboy https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
 git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 
